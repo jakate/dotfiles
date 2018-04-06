@@ -1,0 +1,16 @@
+[core]
+  editor = vim
+[alias]
+  standup = "!f() { git log --since yesterday --oneline --author \"`git config user.email`\" --all; }; f"
+  mh = "!f() { git log --oneline --author \"`git config user.email`\" --all; }; f"
+  l = "log --oneline --graph --decorate --all --color"
+  diff = "diff --color"
+[color]
+  ui = auto
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f
+[user]
+	email = jaakko.tepponen@jakate.com
+	name = Jaakko Tepponen
+
