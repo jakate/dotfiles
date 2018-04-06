@@ -1,6 +1,6 @@
 [core]
   editor = vim
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 [alias]
   standup = "!f() { git log --since yesterday --oneline --author \"`git config user.email`\" --all; }; f"
   mh = "!f() { git log --oneline --author \"`git config user.email`\" --all; }; f"
