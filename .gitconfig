@@ -15,3 +15,7 @@
 	email = jaakko.tepponen@jakate.com
 	name = Jaakko Tepponen
 
+[status]
+	submoduleSummary = true
+[diff]
+	submodule = log
