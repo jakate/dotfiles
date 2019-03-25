@@ -6,6 +6,7 @@
   mh = "!f() { git log --oneline --author \"`git config user.email`\" --all; }; f"
   l = "log --oneline --graph --decorate --all --color"
   diff = "diff --color"
+  zip = "archive --format zip --output ./master.zip master"
 [color]
   ui = auto
 [filter "media"]
