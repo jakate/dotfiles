@@ -477,6 +477,9 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
+# install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
