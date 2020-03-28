@@ -4,6 +4,7 @@ sudo apt-get -y install vim
 sudo apt-get -y install git
 sudo apt-get -y install tmux
 sudo apt-get -y install curl
+sudo apt-get -y install python-pygments
 
 # ---
 # Install git-completion and git-prompt
@@ -36,3 +37,4 @@ fi
 
 sudo apt-get -y install npm
 sudo apt-get -y install python-pip
+
