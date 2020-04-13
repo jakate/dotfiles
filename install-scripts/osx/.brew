@@ -29,6 +29,8 @@ brew install ack
 brew install git
 brew install rename
 brew install tree
+brew install tmux
 
 # Remove outdated versions from the cellar
 brew cleanup
+
